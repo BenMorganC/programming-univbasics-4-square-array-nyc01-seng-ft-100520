@@ -1,7 +1,7 @@
 def square_array(array)
   new_numbers = []
   count = 0 
-  while count < array.length do
+  while count < array.length do |numbers|
     new_numbers << numbers*numbers
     count += 1
   end
