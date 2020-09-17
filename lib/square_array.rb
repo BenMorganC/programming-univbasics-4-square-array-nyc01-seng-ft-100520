@@ -5,6 +5,5 @@ def square_array(array)
     new_numbers << numbers*numbers
     count += 1
   end
-    return new_numbers
-  end
+  return new_numbers
 end
