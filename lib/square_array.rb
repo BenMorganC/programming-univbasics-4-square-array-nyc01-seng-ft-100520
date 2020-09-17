@@ -1,8 +1,8 @@
 def square_array(array)
   new_numbers = []
   count = 0 
-  while count < array.length do |numbers|
-    new_numbers << numbers*numbers
+  while count < array.length do 
+    new_numbers << array[count]**
     count += 1
   end
   return new_numbers
